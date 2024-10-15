@@ -1,0 +1,21 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .gallery-item {
+    transition: transform .3s;
+  }
+  
+  .gallery-item:hover,
+  .gallery-item:focus {
+      transform: scale(1.05);
+  }
+  
+  .main-title {
+    color: rgb(72, 60, 83);
+  }

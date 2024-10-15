@@ -13,19 +13,19 @@
   gap: 40px;
 }
 
-.nav-item {
-  color: #747bff;
-}
+
 .nav-link {
   position: relative;
   display: block;
   font-weight: 500;
   letter-spacing: 0.02em;
   transition: 200ms ease-in;
+  color:rgb(117, 86, 146);
+ 
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #747bff;
+  color: #392b45;
 }
 .nav-link::after {
   content: '';

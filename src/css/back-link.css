@@ -5,6 +5,8 @@
   margin-top: 32px;
   border: 1px solid;
   border-radius: 8px;
+  color: rgb(11, 2, 20);
+  background-color: rgb(186, 168, 202);
 }
 .back-link::before {
   content: '';
